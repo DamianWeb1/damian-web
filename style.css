@@ -947,6 +947,19 @@ button {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
+.btn-cta {
+  background: var(--charcoal);
+  color: var(--cream);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+}
+
+.btn-cta:hover {
+  background: var(--cream);
+  color: var(--charcoal);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
 .contact-deco {
   flex-shrink: 0;
   width: 200px;
